@@ -41,6 +41,9 @@
                           summarize, mean = mean(value), .inform = TRUE)
     #averageData is a tall, skinny dataframe
     
+#Write the dataframe to a csv file    
+    write.table(averageData, file = "tidydataset.csv", sep = ",", col.names =
+                  +                 NA, row.names = TRUE)
 
     
     
